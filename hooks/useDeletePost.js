@@ -38,7 +38,7 @@ const useDeletePost = ({ postId, userId }) => {
       mutateFetchedPost();
       mutateFetchedPosts();
 
-      toast.success('Success');
+      toast.success('Delete Succeed');
     } catch (error) {
       toast.error('Something went wrong');
     }
